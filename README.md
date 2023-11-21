@@ -1,23 +1,35 @@
-# Projeto Vinheiria Agnello
+# LifeSync
 
-Projeto de website para uma vinícola desenvolvido em React.
+Bem-vindo ao **LifeSync**!
 
-## Integrantes da Equipe
+Este projeto é uma plataforma dedicada ao cuidado físico e mental, utilizando tecnologia de smartwatches para monitoramento e aprimoramento da saúde.
 
-- Caíque Walter Silva - RM 550693
-- Enrico Enricco Rossi - RM 551717
-- Gabriel Marquez Trevisan - RM 99227
-- Guilherme Nobre Bernardo - RM 908604
-- Silvia Kavabata - RM 97650
+## Funcionalidades Principais
 
-## O que compõem o projeto
-O site possui as seguintes páginas:
-* Nav Bar
-* Home (Titulo e Paragrafo "Lorem ipsum");
-* Sobre (Titulo, imagem e Paragrafo "Lorem ipsum");
-* Tela de produtos (contendo imagem e titulo de cada um deles)
-* Footer com informções de contato;
+- Monitoramento de saúde em tempo real.
+- Acompanhamento personalizado com base nos dados coletados.
+- Planos de dieta personalizados.
 
-## Repositório GitHub
+## Instalação
 
- - https://github.com/devCaiqueWS/CP4-WebDevelopmentWithJavaScript
+1. Clone este repositório.
+2. Instale as dependências usando `npm install`.
+3. Inicie o servidor com `npm start`.
+
+Certifique-se de ter um ambiente Node.js configurado.
+
+Ou acesse o link 
+
+## Tecnologias Utilizadas
+
+- React
+- Bootstrap
+- SCSS
+- Tecnologias de smartwatches (simulação)
+
+## Autores
+
+- Caíque Walter Silva [@devCaiqueWS](https://github.com/devCaiqueWS)
+- Guilherme Nobre Bernardo [@GN0Ber](https://github.com/GN0Ber)
+
+
