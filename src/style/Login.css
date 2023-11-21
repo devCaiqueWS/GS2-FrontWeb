@@ -1,0 +1,8 @@
+#formulario {
+  padding: 40px 80px 0 80px;
+  border-radius: 10px;
+  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px rgba(255, 68, 0, 0.5490196078);
+}
+#formulario input {
+  width: 120%;
+}/*# sourceMappingURL=Login.css.map */

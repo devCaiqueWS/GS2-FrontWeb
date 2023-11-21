@@ -1,0 +1,53 @@
+div{
+    margin-bottom: 50px;
+}
+.jumbotron {
+  background-image: url("/src/assets/jumbotron.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: left;
+  height: 100vh;
+  padding: 100px 20px;
+  margin-top: -25px;
+
+  h1 {
+    color: orangered;
+  }
+
+  p {
+    color: #000;
+  }
+
+  .btn-group {
+    button:nth-of-type(1){
+        background-color: orange;
+        border: none;
+        color: #000;
+    }
+    button:nth-of-type(2){
+        background-color: orangered;
+        border: none;
+        color: #000;
+    }
+  }
+}
+
+.container-fluid {
+  p {
+    text-align: justify;
+    padding: 0 120px;
+  }
+  span:nth-of-type(1) {
+    font-size: 5rem;
+    font-style: italic;
+    color: orangered;
+    text-align: start;margin: 0px -90px -70px 0;
+  }
+  span:nth-of-type(2) {
+    font-size: 5rem;
+    font-style: italic;
+    color: blue;
+    text-align: end;
+    margin: -70px 0 0 -90px;
+  }
+}

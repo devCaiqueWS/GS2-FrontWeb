@@ -1,0 +1,81 @@
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.5);
+}
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .row .col-md-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  padding: 0 15px;
+}
+.footer .row .col-md-3 .footer-logo img {
+  margin-bottom: 10px;
+}
+.footer .row .col-md-3 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer .row .col-md-3 ul li {
+  margin-bottom: 5px;
+}
+.footer .row .col-md-3 ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.footer .row .col-md-3 h5 {
+  margin-bottom: 10px;
+}
+.footer .row .col-md-3 .footer-contact-info,
+.footer .row .col-md-3 .footer-social,
+.footer .row .col-md-3 .footer-newsletter {
+  width: 100%;
+}
+.footer .row .col-md-3 .footer-contact-info p,
+.footer .row .col-md-3 .footer-social p,
+.footer .row .col-md-3 .footer-newsletter p {
+  margin: 5px 0;
+}
+.footer .row .col-md-3 .footer-contact-info input,
+.footer .row .col-md-3 .footer-contact-info button,
+.footer .row .col-md-3 .footer-social input,
+.footer .row .col-md-3 .footer-social button,
+.footer .row .col-md-3 .footer-newsletter input,
+.footer .row .col-md-3 .footer-newsletter button {
+  width: 100%;
+  margin-top: 10px;
+}
+.footer .row .copy-text {
+  margin-top: auto;
+}
+.footer .footer-social ul, .footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer .footer-social ul li a, .footer .footer-links ul li a {
+  color: orangered;
+}
+.footer .footer-newsletter input {
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  background-color: #c3c3c3;
+  padding: 8px;
+}
+.footer .footer-newsletter button {
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  background-color: orangered;
+  color: white;
+  padding: 8px;
+}/*# sourceMappingURL=Footer.css.map */

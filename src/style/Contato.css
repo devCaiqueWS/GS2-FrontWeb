@@ -1,0 +1,44 @@
+.contato {
+  padding: 50px 0;
+}
+.contato h2 {
+  margin-bottom: 20px;
+}
+.contato .contato-info {
+  margin-bottom: 30px;
+}
+.contato .contato-info p {
+  margin-bottom: 10px;
+}
+.contato .contato-info .redes-sociais span {
+  font-size: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.contato .contato-info .redes-sociais a {
+  margin-right: 30px;
+  color: orangered;
+}
+.contato .contato-form {
+  background-color: #f0f0f0;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #73b1e7;
+}
+.contato .contato-form h2 {
+  margin-bottom: 20px;
+}
+.contato .contato-form .form-group {
+  margin-bottom: 20px;
+}
+.contato .contato-form button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contato .contato-form button:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=Contato.css.map */
