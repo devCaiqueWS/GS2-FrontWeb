@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../style/Footer.css';
 import logo from '../assets/LifeSyncLogo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,9 +22,10 @@ function Footer(){
             <div className="footer-links">
               <h5>Links</h5>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/contato">Contato</Link></li>
+                <li><Link to="/sobre">Sobre</Link></li>
+                <li><Link to="/login">Login</Link></li>
               </ul>
             </div>
           </div>
@@ -43,10 +45,10 @@ function Footer(){
             <div className="footer-social">
               <h5>Redes Sociais</h5>
               <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">LinkedIn</a></li>
+                <li><a href="https://www.facebook.com/life_sync" target='_blank'>Facebook</a></li>
+                <li><a href="https://twitter.com/lifesync" target='_blank'>Twitter</a></li>
+                <li><a href="https://www.instagram.com/lifesync_" target='_blank'>Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/life_sync" target='_blank'>LinkedIn</a></li>
               </ul>
             </div>
           </div>
@@ -57,7 +59,7 @@ function Footer(){
               <h5>Newsletter</h5>
               <p>Assine nossa newsletter para receber as últimas novidades.</p>
               <form action="#">
-                <input type="email" placeholder="Seu e-mail" />
+                <input type="email" placeholder="Seu e-mail" required/>
                 <button type="submit">Inscrever-se</button>
               </form>
             </div>
