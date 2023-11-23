@@ -18,7 +18,7 @@ Este projeto é uma plataforma dedicada ao cuidado físico e mental, utilizando 
 
 Certifique-se de ter um ambiente Node.js configurado.
 
-Ou acesse o link 
+Ou acesse o link: https://life-sync.netlify.app
 
 ## Tecnologias Utilizadas
 
