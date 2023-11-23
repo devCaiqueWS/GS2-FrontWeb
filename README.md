@@ -29,7 +29,7 @@ Ou acesse o link: https://life-sync.netlify.app
 
 ## Autores
 
-- Caíque Walter Silva [@devCaiqueWS](https://github.com/devCaiqueWS)
-- Guilherme Nobre Bernardo [@GN0Ber](https://github.com/GN0Ber)
+- Caíque Walter Silva | RM: 550693 [@devCaiqueWS](https://github.com/devCaiqueWS)
+- Guilherme Nobre Bernardo | RM: 98604 [@GN0Ber](https://github.com/GN0Ber)
 
 
