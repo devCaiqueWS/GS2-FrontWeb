@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import smart from "../assets/smartWatchPhone.png";
@@ -13,10 +14,16 @@ function Home() {
         <div className="jumbotron">
           <div className="container">
             <h1>LifeSync: Saúde personalizada</h1>
-            <p>Dietas precisas e objetivas para atender às suas metas de saúde.</p>
+            <p>
+              Dietas precisas e objetivas para atender às suas metas de saúde.
+            </p>
             <div className="btn-group">
-              <button className="btn btn-primary" to="/sobre">Saiba Mais...</button>
-              <button className="btn btn-secondary">Login</button>
+              <Link to="/sobre" className="btn btn-primary">
+                Saiba Mais...
+              </Link>
+              <Link to="/login" className="btn btn-secondary">
+                Login
+              </Link>
             </div>
           </div>
         </div>
@@ -84,16 +91,16 @@ function Home() {
                   priorizando o bem-estar individual de cada usuário.
                 </p>
                 <div className="btn-group">
-                  <a href="rota1" className="btn btn-primary">
-                    Sobre
-                  </a>
-                  <a href="rota2" className="btn btn-secondary">
-                    Contato
-                  </a>
-                  <a href="login" className="btn btn-info">
-                    Login
-                  </a>
-                </div>
+              <Link to="/sobre" className="btn btn-primary">
+                Saiba Mais...
+              </Link>
+              <Link to="/contato" className="btn btn-secondary">
+                Contato
+              </Link>
+              <Link to="/login" className="btn btn-info">
+                Login
+              </Link>
+            </div>
               </div>
             </div>
             <div className="col-md-6 feature-section">
